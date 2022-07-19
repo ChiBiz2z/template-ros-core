@@ -13,4 +13,4 @@ def solution(obs):
     if(res > 0)
         return [0.1, 0]
     else
-        return [0, 0.5]
+        return [0.1, 0.5]
