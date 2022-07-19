@@ -10,7 +10,7 @@ def solution(obs):
     yellow_ratio = (cv2.countNonZero(mask)) / (img_hsv.size / 3)
     res = np.round(yellow_ratio * 100, 2)
     
-    if(res > 0)
+    if res > 0:
         return [0.1, 0]
-    else
+    else:
         return [0.1, 0.5]
